@@ -50,6 +50,7 @@ public class submitorderTest extends BaseTest{
        confirmationPage confirmationpage = checkoutcart.submitOrder();
        String confirmMessage = confirmationpage.getConfirmatiomPage();
         Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+        System.out.println("nidhi chaudhary");
         driver.close();
              
 }
